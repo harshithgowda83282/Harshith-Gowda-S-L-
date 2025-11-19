@@ -7,9 +7,9 @@ int main() {
     scanf("%d", &n);
 
     do {
-        sum += i;  // Add current value of i to sum
-        i++;      // Increment i
-    } while (i <= n);  // Continue loop until i is greater than n
+        sum += i;  
+        i++;      
+    } while (i <= n); 
 
     printf("Sum of first %d natural numbers is: %d
 ", n, sum);
