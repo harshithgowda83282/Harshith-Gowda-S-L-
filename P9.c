@@ -5,7 +5,7 @@ int main() {
     float percentage;
     char grade;
     
-    // Input marks for 5 subjects
+    
     printf("Enter marks for 5 subjects: ");
     for (int i = 0; i < 5; i++) {
         scanf("%d", &marks[i]);
