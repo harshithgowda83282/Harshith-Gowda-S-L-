@@ -4,17 +4,12 @@ int main() {
     int marks[5], total = 0;
     float percentage;
     char grade;
-    
-    
     printf("Enter marks for 5 subjects: ");
     for (int i = 0; i < 5; i++) {
         scanf("%d", &marks[i]);
         total += marks[i];
     }
-    
-    
     percentage = (float)total / 5;
-    
     
     if (percentage >= 90) {
         grade = 'A';
@@ -27,8 +22,6 @@ int main() {
     } else {
         grade = 'F';
     }
-    
-    
     printf("
 Total Marks = %d
 ", total);
@@ -37,7 +30,6 @@ Total Marks = %d
     printf("Grade = %c
 ", grade);
     
-    /
     if (grade == 'F') {
         printf("Result: Fail
 ");
